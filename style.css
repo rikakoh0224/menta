@@ -1,0 +1,120 @@
+.header {
+  height: 270px;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.header .menu-bar {
+  display: flex;
+  padding: 10px 0;
+}
+.header .menu {
+  margin-left: 30px;
+  font-size: 14.4px;
+}
+.header .instagram img {
+  width: 20px;
+}
+
+.main-visual img {
+  height: 420px;
+  width: 100%;
+  max-width: 1920px;
+  margin-bottom: 80px;
+}
+
+.contents {
+  max-width: 960px;
+  margin: 0 auto 130px;
+  padding: 0 4%;
+  font-size: 0.9rem;
+}
+.contents .sec-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 65px;
+  font-size: 1.5rem;
+}
+.contents .text {
+  margin-bottom: 30px;
+}
+.contents .works-pic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.contents .works-pic li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+.contents .works-pic li img {
+  max-width: 100%;
+}
+.contents .news-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+}
+.contents .news-list dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+  font-weight: 100;
+}
+.contents .news-list dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+.contents .form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.contents .form input {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+.contents .form dt {
+  padding: 10px;
+  width: 15%;
+  font-weight: 100;
+}
+.contents .form dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+.contents .form textarea {
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 10px;
+  border: solid 1px #c8c8c8;
+}
+.contents .button {
+  text-align: center;
+}
+.contents .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+  text-align: center;
+}
+.contents .button input:hover {
+  background-color: #fff;
+  color: #24292e;
+}
+
+footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

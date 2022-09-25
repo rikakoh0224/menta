@@ -1,0 +1,56 @@
+@media screen and (max-width:600px) {
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+
+    .menu {
+      font-size: 0.8rem;
+      margin-left: 20px;
+    }
+  }
+
+  .works-pic {
+    flex-direction: column;
+    
+    li {
+      width: 100%;
+    }
+  }
+
+  .contents {
+    .news-list {
+      flex-direction: column;
+      
+      dt {
+        width: 100%;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+  
+      dd {
+        width: 100%;
+        padding-top: 0;
+      }
+    }
+
+    .form {
+      flex-direction: column;
+
+      dt {
+        padding-bottom: 0;
+        padding-left: 0;
+        width: 100%;
+      }
+
+      dd {
+        width: 100%;
+      }
+    }
+
+  }
+
+  
+}

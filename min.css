@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .header .menu {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+  .works-pic {
+    flex-direction: column;
+  }
+  .works-pic li {
+    width: 100%;
+  }
+  .contents .news-list {
+    flex-direction: column;
+  }
+  .contents .news-list dt {
+    width: 100%;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .contents .news-list dd {
+    width: 100%;
+    padding-top: 0;
+  }
+  .contents .form {
+    flex-direction: column;
+  }
+  .contents .form dt {
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .contents .form dd {
+    width: 100%;
+  }
+}/*# sourceMappingURL=min.css.map */
